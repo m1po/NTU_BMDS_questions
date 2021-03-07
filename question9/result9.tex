@@ -1,0 +1,39 @@
+\documentclass[12pt]{article}
+\linespread{1}
+\renewcommand{\rmdefault}{phv} % Arial
+\title{Question 9}
+
+\author{Name: Yuze Zhang}
+
+\date{\today}
+
+\begin{document}
+
+    \maketitle
+
+    \clearpage
+
+ \indent\indent 
+ 
+The author of this article suggests that Rashomon set is realistic and can be used to meaningfully capture explainable models. She refutes the misunderstanding that the lack of stability of algorithm is a disadvantage. She supports her argument by two reasons which are instability of algorithm is common in machine learning and stability of algorithm does not definitely imply a better model.
+~\\
+
+In the first place, Rashomon Set is set that contains a large number of interpretable and accurate models. Since there are plentiful models in it, for a given data set, it is often possible to find at least one interpretable model that performs on this data set accurately. Therefore, explainable models can be theoretically expected to exist in Rashomon Set.
+~\\
+
+In many cases, however, different sufficiently good machine learning algorithms produce very similar results for the same data set. Small changes of elements in a data set will have a much greater impact on the results than changes of algorithm. When many models can be applied to one data set and the elements in the data set change slightly, the instability of the algorithm appears, which means one algorithm in different patterns may replace the original algorithm to become the optimal one.
+~\\
+
+Based on the above properties, the author claims that the instability of algorithms not only exists in Rashomon Set but also in many other machine learning models like linear models. In fact, for meaningful structured covariates data set, the performances of different machine learning algorithms are often similar. Hence, the dominant algorithm does not appear, and these models with similar results are suitable for the formation of Rashomon Set. Oppositely, the instability can become an advantage because experts can select one model that is fundamentally explainable and whose algorithm is relatively fast and simple from the eligible models. Additionally, experts can refine models in Rashomon Set to make them more accurate if the instability indeed comes from Rashomon Set.
+~\\
+
+
+The author also mentions that the common misunderstanding that machine learning algorithms should have significant different performance is caused by some publishers. Due to the preference of some publishers, models with specially designed data sets and deliberately adjusted parameters are selected for publication, Thus, it results in significant different performances of different algorithms. Actually, these differences do not truly exist among algorithms. 
+~\\
+
+Moreover, the author explains why the stability of algorithm does not indicate an improvement of a model. Although regularization can be used to increase algorithm stability, it will lead to a decrease number of models one can choose. This may contribute to the situation that better models are excluded from the choices. Besides, in some predictive models with no actual causal relationship between variables and results, even if the algorithm is stable, it can not be explained as a better model over others without the guidance from the domain experts
+~\\
+
+In summary, the author of this article concludes that Rashomon set is realistic and can be used to meaningfully capture explainable models by demonstrating the instability of algorithm is an advantage rather than a disadvantage.
+
+\end{document}
